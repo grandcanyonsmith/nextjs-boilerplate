@@ -11,15 +11,15 @@ export default function Home() {
         </p>
         <div>
           <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
           >
             By{' '}
             <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
+              src="/react.svg"
+              alt="React Logo"
+              className={styles.reactLogo}
               width={100}
               height={24}
               priority
@@ -31,8 +31,8 @@ export default function Home() {
       <div className={styles.center}>
         <Image
           className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
+          src="/react.svg"
+          alt="React Logo"
           width={180}
           height={37}
           priority
@@ -41,7 +41,7 @@ export default function Home() {
 
       <div className={styles.grid}>
         <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://reactjs.org/docs"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
@@ -49,11 +49,11 @@ export default function Home() {
           <h2>
             Docs <span>-&gt;</span>
           </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
+          <p>Find in-depth information about React.js features and API.</p>
         </a>
 
         <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://reactjs.org/tutorial/tutorial.html"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
@@ -61,11 +61,11 @@ export default function Home() {
           <h2>
             Learn <span>-&gt;</span>
           </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
+          <p>Learn about React.js in an interactive course with quizzes!</p>
         </a>
 
         <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://github.com/facebook/create-react-app"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
@@ -73,11 +73,11 @@ export default function Home() {
           <h2>
             Templates <span>-&gt;</span>
           </h2>
-          <p>Explain the Next.js 13 playground.</p>
+          <p>Start a new project with Create React App.</p>
         </a>
 
         <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://vercel.com/new?template=https://github.com/vercel/next.js/tree/canary/examples/learn-starter"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
@@ -86,7 +86,7 @@ export default function Home() {
             Deploy <span>-&gt;</span>
           </h2>
           <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            Instantly deploy your React.js site to a shareable URL with Vercel.
           </p>
         </a>
       </div>
