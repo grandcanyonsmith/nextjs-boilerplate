@@ -17,9 +17,9 @@ export default function Home() {
           >
             By{' '}
             <Image
-              src="/next.svg"
+              src="/vervel.svg"
               alt="React Logo"
-              className={styles.nextLogo}
+              className={styles.vercelLogo}
               width={100}
               height={24}
               priority
