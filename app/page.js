@@ -17,9 +17,9 @@ export default function Home() {
           >
             By{' '}
             <Image
-              src="/react.svg"
+              src="/next.svg"
               alt="React Logo"
-              className={styles.reactLogo}
+              className={styles.nextLogo}
               width={100}
               height={24}
               priority
@@ -31,7 +31,7 @@ export default function Home() {
       <div className={styles.center}>
         <Image
           className={styles.logo}
-          src="/react.svg"
+          src="/next.svg"
           alt="React Logo"
           width={180}
           height={37}
